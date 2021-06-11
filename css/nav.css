@@ -1,0 +1,19 @@
+header {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  header .header-bottom {
+    background-color: #FFF; }
+    header .header-bottom .navbar {
+      float: right; }
+      @media screen and (max-width: 991px) {
+        header .header-bottom .navbar {
+          width: 100%; } }
+    header .header-bottom img {
+      margin-top: 15px; }
+      @media screen and (max-width: 991px) {
+        header .header-bottom img {
+          padding: 5px;
+          margin-top: 0px;
+          max-width: 230px; } }
+  header .nav-col .navbar-nav li {
+    padding: 14px 20px;
+    font-weight: 600; }
